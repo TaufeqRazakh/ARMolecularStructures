@@ -29,11 +29,13 @@ internal byte[] imageBytes;
 
 internal string imagePath;
 
-private void Awake(){
+private void Awake()
+{
     instance = this;
 }
 
-public IEnumerator AnalyseLastImageCaptured(){
+public IEnumerator AnalyseLastImageCaptured()
+{
     try
     {
         HttpClient client = new HttpClient();
@@ -115,27 +117,32 @@ public IEnumerator AnalyseLastImageCaptured(){
             return;
         }
         else
-        {   
-             // Display the JSON response.
+        {
+            // Display the JSON response.
             Console.WriteLine("\nResponse:\n\n{0}\n",
                 JToken.Parse(contentString).ToString());
-            
-            List<string> textList = new List<string, float>();
-            
-            foreach(LinesData ld in contentString.recognitionResults.Lines)
+
+            List<string> textList = new List<string>();
+
+            // Parse Json to get a list of text lines
+            JObject results = new JObject.Parse(contentString);
+            // JArray resultLines = (JArray)results["recognitionResults"]["lines"];
+
+
+            foreach (var ld in results["recognitionResults"]["lines"])
             {
-                textList.Add(ld.text);
+                textList.Add((string)var["text"]);
             }
 
             ResultsLabel.instance.SetTextToLastLabel(textList);
         }
-                
+
     }
     catch (Exception e)
     {
         Console.WriteLine("\n" + e.Message);
     }
-    
+
     yield return null;
 }
 
