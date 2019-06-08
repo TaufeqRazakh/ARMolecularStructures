@@ -6,5 +6,5 @@ This is a new prototype at CACS for enhancing 3D modelling of molecular structur
 </div>
 
 ## Contact
-Ankit Mishra - ankitmis(at)usc(dot)edu
+Ankit Mishra - ankitmis(at)usc(dot)edu <br>
 Taufeq Razakh - razakh(at)usc(dot)edu
