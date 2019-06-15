@@ -1,0 +1,12 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+d:\cacs-ar-vr\gears-ar\builds\gears-ar\app.cpp(26): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+  d:\cacs-ar-vr\gears-ar\builds\gears-ar\app.cpp(26): note: Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  Generating code
+  17 of 160 functions (10.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Gears-AR.vcxproj -> D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\Win32\Release\Gears-AR.exe

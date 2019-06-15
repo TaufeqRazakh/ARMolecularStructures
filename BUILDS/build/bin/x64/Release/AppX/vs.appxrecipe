@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-1INL54SV</Machine>
+    <WindowsUser>mr02</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>93639691-b201-42d8-b161-d0f9579f76a8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\CACS-AR-VR\Gears-AR\BUILDS\build\obj\Gears-AR\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D8AADBF3C45FA02CB3789A0BF6120BA1BEC7495F16D4806AA887F624D54E820D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Template3D_1.0.0.0_x64__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Template3D</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-13T22:34:10.357</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\Gears-AR.exe">
+      <PackagePath>Gears-AR.exe</PackagePath>
+      <Modified>2019-06-13T22:34:41.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2019-06-05T14:29:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2019-06-05T14:29:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\Gears_AR.winmd">
+      <PackagePath>Gears_AR.winmd</PackagePath>
+      <Modified>2019-06-13T22:34:08.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-05T13:44:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\HolographicAppRemoting.dll">
+      <PackagePath>HolographicAppRemoting.dll</PackagePath>
+      <Modified>2019-06-11T20:00:00.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\PerceptionDevice.dll">
+      <PackagePath>PerceptionDevice.dll</PackagePath>
+      <Modified>2019-06-11T20:00:00.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\UnityRemotingWMR.dll">
+      <PackagePath>UnityRemotingWMR.dll</PackagePath>
+      <Modified>2019-06-11T20:00:00.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\AudioPluginMsHRTF.dll">
+      <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
+      <Modified>2019-06-11T20:00:00.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2019-06-13T22:34:03.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\x64\Release\WinPixEventRuntime_UAP.dll">
+      <PackagePath>WinPixEventRuntime_UAP.dll</PackagePath>
+      <Modified>2019-06-05T14:29:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2019-06-13T22:31:38.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\mconfig\config.xml">
+      <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2019-06-13T22:31:33.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\2.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\2.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\web.config</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.0\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\machine.config</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.0\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\web.config</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.5\machine.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\machine.config</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.5\web.config">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\web.config</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2019-06-13T22:31:15.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2019-06-13T22:31:13.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\config">
+      <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2019-06-05T13:44:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2019-06-13T22:31:33.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2019-06-13T22:31:15.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2019-06-13T22:31:15.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2019-06-13T22:31:18.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2019-06-13T22:32:24.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\browscap.ini">
+      <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\2.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\settings.map</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.0\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\settings.map</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.5\settings.map">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\settings.map</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\2.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2019-06-05T13:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.0\Browsers\Compat.browser</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser">
+      <PackagePath>Data\il2cpp_data\etc\mono\4.5\Browsers\Compat.browser</PackagePath>
+      <Modified>2019-06-05T13:36:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2019-06-13T22:32:13.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
+      <Modified>2019-06-13T22:31:52.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\Gears-AR\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2019-06-13T22:31:52.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\CACS-AR-VR\Gears-AR\BUILDS\build\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-06-13T22:34:42.409</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
